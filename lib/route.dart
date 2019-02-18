@@ -10,4 +10,5 @@ abstract class UIRoute{
   static const String circleFloatingMenu = 'circle_floating_menu';
   static const String liquidCheck = 'liquid_check';
   static const String verificationCode = 'verification_code';
+  static const String playGround = 'playGround';
 }
