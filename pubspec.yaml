@@ -25,6 +25,7 @@ dependencies:
   oktoast: ^2.0.0
   path_provider: ^0.4.1
   permission_handler: ^2.2.0
+  html: ^0.13.3+3
 
 dev_dependencies:
   flutter_test:

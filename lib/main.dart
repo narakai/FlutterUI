@@ -16,9 +16,13 @@ import 'package:flutter_ui/tipmenu/tip_menu_page.dart';
 import 'package:flutter_ui/verificationcode/Verification_code_paget.dart';
 import 'package:oktoast/oktoast.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:html/parser.dart' show parse;
 
 void main() {
   debugPaintSizeEnabled = false;
+  var document = parse(
+      '<body>Hello world! <a href="www.html5rocks.com">HTML5 rocks!');
+  print(document.children[0].text);
   runApp(new MyApp());
 }
 
